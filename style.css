@@ -18,7 +18,44 @@ body {
     padding: 15px;
 }
 
-#message {
+#btn-add {
+    background-color: white;
+    border: 1px solid #3399FF;    ;
+    border-radius: 5px;
+    color:#3399FF    ;    
+    padding: 5px 10px;
+    margin-left:10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+#btn-add:focus {
+    outline:0;
+}
+#btn-add:hover {
+    background: #2196F3;
+    color: white;
+}
+#type-message {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;    ;
+    text-align: center;
+    margin-left:10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    width:70vh;
+    font-style: italic;
+}
+
+#type-message:focus {
+
+}
+
+#message, #newmessage {
     display: flex;
     align-items: center;
     width: 50%;
